@@ -1,0 +1,146 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    padding: 1%;
+}
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.mlink{
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 1%;
+    text-decoration: none;
+    color: black;
+}
+.linkdiv{
+    float: right;
+    margin: auto;
+}
+.linkdiv a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    padding:10px;
+}
+.linkdiv .btn{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: auto;
+    height: 1%;
+    padding: 7px;
+}
+.log {
+    background-color: red;
+}
+.main-div-title{
+    padding: 0;
+    margin-top: 4%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(15, 15, 15);
+}
+.main-div-title-subtitle{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 53px;
+    font-weight: lighter;
+    transition: color 0.5s ease-in-out;
+}
+/*-----------------------------------*/ 
+.divgroup{
+    max-width: fit-content;
+    padding: 10px;
+    margin-left: 1%;
+    display: flex;
+    
+}
+.one{
+    width: 200px;
+    height: 300px;
+    display: flex; 
+    margin-left: 10px;
+    animation: moveUpA 1s infinite ease-in-out alternate ;
+}
+.two{
+    width: 200px;
+    height: 300px;
+    display: flex;  
+    margin-left: 10px;
+    animation: moveUpB 1s infinite ease-in-out alternate ;
+    animation-delay: 1s;
+}
+.three{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    padding-top: 10px;  
+    margin-left: 10px;
+    animation: moveUpC 1s infinite ease-in-out alternate ;
+    animation-delay: 0s;
+}
+@keyframes moveUpA {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+@keyframes moveUpB {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-14px);
+    }
+}
+@keyframes moveUpC {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+.div-btn2{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.btn2{
+    margin-top: -4%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 70%;
+    position: absolute;
+    animation: moveUpDown 1s infinite ease-in-out;
+}
+@keyframes moveUpDown {
+    0% { 
+        transform: translateY(0); 
+    }   /* Start position */
+    50% {
+         transform: translateY(-10px);
+         } /* Move up */
+    100% { 
+        transform: translateY(0);
+     }  /* Back to start */
+}
+
+
+
+
+
+
