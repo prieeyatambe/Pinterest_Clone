@@ -1,0 +1,68 @@
+#sectionthree{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#ccf6ee;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100vh;
+}
+.paraone{
+    align-items: center;
+    color:  rgb(2, 59, 72);
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 2%; 
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.savediv{
+    position: absolute;
+    float: right;
+    right: 20px;
+}
+.head2{
+    font-size: 55px; 
+    font-weight: bolder;
+    color:  rgb(2, 59, 72);
+}
+.exploreSave{
+    padding: 15px;
+    font-size: medium;
+    font-weight: bold;
+    width: fit-content;
+    margin-top: 2%;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(192, 0, 0);
+}
+.savediv{
+    float: left;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+.br{
+    border-radius: 50px;
+}
+.boxtext{
+    color: white;
+    font-size: xx-large;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
