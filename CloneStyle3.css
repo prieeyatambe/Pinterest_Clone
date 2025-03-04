@@ -15,8 +15,8 @@
     flex-wrap: wrap;
     position: absolute;
     padding: 2%; 
-    margin-top: 5%;
-    margin-left: 7%;
+    margin-top: 7%;
+    margin-left: 5%;
 }
 .savediv{
     position: absolute;
@@ -42,27 +42,92 @@
 }
 .savediv{
     float: left;
-    margin-top: 5%;
-    margin-left: 50%;
+    margin-top: -3%;
+    margin-left: 50%;  
 }
 .br{
     border-radius: 50px;
 }
-.boxtext{
-    color: white;
-    font-size: xx-large;
-    text-align: justify;
-    background-color: rgba(0, 0, 0, 0.2);
-    top: 50%;
-    left: 50%;
-}
-.box1{
-    width: 300px;
-    height: 300px;
-}
-.box1 img{
+.imgone{
+    padding-top: 50%;
+    padding-bottom: 50%;
+  }
+.imgs{
     width: 100%;
     height: 100%;
 }
+.boxtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.345);
+    font-size: 30px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+  }
+  .box1 {
+    float: inline-start;
+    top: -3%;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.936);
+    width: 375px;
+    height: 400px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+.box2 {
+    float: inline-end;
+    top:-3%;
+    right: 1%;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.936);
+    width: 275px;
+    height: 275px;
+    cursor: pointer;
+  }
+.box3 {
+    float: left;
+    top:1%;
+    left: 5%;
+    margin-top: 4%;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.936);
+    width:280px;
+    height: 280px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+.box4 {
+    float: inline-start;
+    top:0%;
+    left: 15%;
+    margin-top: -20%;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.936);
+    width:200px;
+    height: 200px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+.box5 {
+    float: inline-end;
+    top:0%;
+    right: 20%;
+    margin-top: 3%;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.936);
+    width:250px;
+    height: 250px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
 
 

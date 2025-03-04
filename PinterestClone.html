@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Priya Tambe">
     <meta name="keyword" content="pinterest broswer image collector diy outfit snack decore">
+    <!-- <meta http-equiv="refresh" content="30"> -->
     <title>Pinterest</title>
     <link rel="stylesheet" href="CloneStyle1.css">
     <link rel="stylesheet" href="CloneStyle2.css">
     <link rel="stylesheet" href="CloneStyle3.css">
+    <link rel="stylesheet" href="CloneStyle4.css">
+    <link rel="stylesheet" href="CloneStyle5.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
 </head>
@@ -34,7 +37,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="sectionone">
             <div class="main-div-title">
                 <span>Get your next</span>
             </div>
@@ -51,9 +54,10 @@
                 <button class="btn2" style="align-items: center;">
                     <i class="fa-solid fa-arrow-down fa-xl" style="color: #073688;"></i>
                 </button> 
-                <div style="background-color: rgb(255, 196, 0); width: 100%; text-align: center;
-                     padding: 4px;box-shadow: 5px -25px 40px rgb(194, 149, 2); left: 0; right: 0;">
-                    <a href="#sectiontwo" style="text-decoration: none; color: black;">Here's how it works</a>
+                <div style="background-color: #fffd92; width: 100%; text-align: center;
+                     padding: 4px;box-shadow: 5px -25px 40px #fffd92; left: 0; right: 0;">
+                    <a href="#sectiontwo" style="text-decoration: none; color: black;">
+                        Here's how it works  <i class="fa-solid fa-arrow-down fa-sm" style="color: #000000;"></i></a>
                 </div>
             </div>
         </section>
@@ -86,28 +90,121 @@
 
             <div class="savediv">  
                 <div class="box1 br">
-                    <div class="boxtext br">Deck of my dreams
-                        <img src="../Pinterest_Clone/images/decore.jpg" alt="image" class="br">
+                    <img src="images/decore.jpg" alt="Image" class="imgs br">
+                    <div class="boxtext br">
+                      <div class="imgone br">
+                          The deck of my dream
+                      </div>
                     </div>
                 </div>
-                <!-- <div class="image-box">
-                    Deck of my dreams
+                <div class="box2 br">
+                    <img src="images/decore3.jpg" alt="Image" class="imgs br">
+                    <div class="boxtext br">
+                      <div class="imgone br">
+                          The deck of my dream
+                      </div>
+                    </div>
                 </div>
-                <div class="image-box">
-                    Deck of my dreams
+                <div class="box3 br">
+                    <img src="images/decore4.jpg" alt="Image" class="imgs br">
+                    <div class="boxtext br">
+                      <div class="imgone br">
+                          The deck of my dream
+                      </div>
+                    </div>
                 </div>
-                <div class="image-box">
-                    Deck of my dreams
+               
+                 <div class="box4 br">
+                    <img src="images/decore5.jpg" alt="Image" class="imgs br">
+                    <div class="boxtext br">
+                      <div class="imgone br">
+                          The deck of my dream
+                      </div>
+                    </div>
                 </div>
-                <div class="image-box">
-                    Deck of my dreams
-                </div>
-                <div class="image-box">
-                    Deck of my dreams
-                </div> -->
+               <div class="box5 br">
+                    <img src="images/decore.jpg" alt="Image" class="imgs br">
+                    <div class="boxtext br">
+                      <div class="imgone br">
+                          The deck of my dream
+                      </div>
+                    </div>
+                </div> 
             </div>
         </section>
+        <section id="sectionfour">
+            <div class="fashiondiv">
+                <img src="../Pinterest_Clone/images/f1.png" alt="makeup image" class="makeimg">
+            </div>
+            <div class="paratwo">
+                <h1 class="head4">See it, make it, <br> try it, do it</h1>
+                    <span style="text-align: center;">
+                        What do you want to try next? Think <br> of something you’re into—like “easy <br> chai snack”—and see what you <br> find.
+                    </span>
+                 <a href="#" class="explorelink">Explore</a>
+            </div>
+            </div>
+        </section>
+        <section id="sectionfive">
+            <a href="#sectionone" class="arrowlink"><i class="fa-solid fa-arrow-up fa-xl" style="color: #ffffff; background-color: #000000cb;"></i></a>
+            <div class="finaldiv">
+                <div class="head5">Sign up to get <br> your ideas</div>
+                <div class="regstration">
+                    <i class="fa-brands fa-pinterest fa-xl fa-red" style="color:rgb(226, 2, 2);"></i>
+                    <h2>Welcome to Pinterest</h2>
+                    <span>Find new ideas to try</span>
+
+                    <div class="formdiv">
+                        <form action="">
+                            <label for="uname" class="lbl">Name</label><br>
+                            <input type="text" name="name" id="uname" placeholder="Email" class="inp"><br>
+                            
+                            <label for="pass" class="lbl">Email</label><br>
+                            <input type="password" name="pass" id="pwd" placeholder="Create a password" class="inp"><br>
+                            
+                            <label for="bdate" class="lbl">Birthdate
+                                <i class="fa-solid fa-circle-info fa-lg" style="color: #797979;" title="
+                                To help keep pinterest safe, wee now require your birthdate.Your birthdate also help uu provide more personalized recommendations and
+                                relevant ads. We won't share your information without your permission and it won't be visible on your profile."></i>
+                            </label><br>
+                            
+                            <input type="date" name="bday" id="bdate" class="inp"><br>
+
+                            <input type="submit" value="continue" class="submitbtn">
+                        </form>
+                    </div>
+                    <label> OR</label> <br>
+                    <button class="googlebtn">
+                      <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" style="float: inline-start;" width="18px" height="18px" alt="google icon">
+                       continue with Google
+                    </button> 
+                    
+                   
+                        <p class="paratc">
+                            By continuing, you agree to Pinterest's <a href="#">Terms of Service</a> <br>
+                            and acknowledge you've read our <a href="#">Privacy Policy.</a><br>
+                            <a href="#">Notice at collection.</a>
+                        </p>
+                        <span class="lglink" >Already a member? <a href="#">Log in</a></span>
+                </div>
+                
+            </div> 
+        </section>
     </main>
+    <footer>
+        <nav>
+            <a href="">Term of Service</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Help</a>
+            <a href="">Iphone App</a>
+            <a href="">Android App</a>
+            <a href="">Users</a>
+            <a href="">Collectioins</a>
+            <a href="">Shopping</a>
+            <a href="">Explore</a>
+            <a href="">Shop</a>
+        </nav>
+    </footer>
     <script  src="script1.js"></script>
 </body>
 </html>
