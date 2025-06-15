@@ -1,0 +1,125 @@
+#sectionfour{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#ffbed2;
+    width: 100%;
+    height: 100vh;
+}
+.paratwo{
+    float: inline-end;
+    align-items: center;
+    color:   rgb(192, 0, 0);
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 2%; 
+    margin-top: 7%;
+    margin-left: 60%;
+}
+.head4{
+    text-align: center;
+    font-size: 55px; 
+    font-weight: bolder;
+    color:  rgb(192, 0, 0);
+}
+.fashiondiv{
+    float: inline-start;
+    width: 50%;
+    height: 100%;
+    object-fit: contain;   
+}
+.fashiondiv img{
+   width: 100%;
+   height: 100%;
+}
+/*--------------------------section five-----------------------------*/
+#sectionfive{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('../Pinterest_Clone/images/Screenshot_3-3-2025_174029_127.0.0.1.jpeg');
+    background-repeat: no-repeat;
+    background-size:100vw ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.finaldiv{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.head5{
+    font-size: 65px;
+    color: white;
+    padding-top: 20%;
+    padding-left: 15%;
+    font-weight: bold;
+}
+.arrowlink{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    background-color: rgba(248, 242, 245, 0.491);
+    padding: 8px;
+    border-radius: 25px;
+}
+.regstration{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    top: 10%;
+    left: 60%;
+    padding: 4%;
+    border-radius: 20px;
+}
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    left: 0;
+    padding-top: 5%;
+    width: 100%;
+}
+.lbl{
+    text-align: left;
+    font-weight: 100;
+    font-size: 15px;
+}
+input::placeholder{
+   font-size: 12px;
+   padding: 5px;
+}
+.inp{
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(159, 159, 159);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.submitbtn{
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0 5px 9px;
+    background-color: red;
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.googlebtn{
+    width: 100%;
+    margin: 0px 0px 5px 9px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(159, 159, 159);
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}

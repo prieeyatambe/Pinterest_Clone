@@ -1,0 +1,30 @@
+.paratc{
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+.paratc a{
+    color: rgb(110, 110, 110);
+}
+.lglink{
+    font-size: 15px;
+    font-weight: 100;
+}
+.lglink a{
+    color: black;
+}
+footer{
+    padding: 1px;
+    text-align: center;
+}
+footer a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 4px;
+    font-weight: 300;
+}
+footer a:hover{
+    text-decoration: underline;
+}

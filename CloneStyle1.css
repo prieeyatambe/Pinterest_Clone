@@ -8,6 +8,9 @@ body{
 html {
     scrollbar-width: none;
 }
+#sectionone{
+    background: linear-gradient(to bottom, #e6ffec 0%, #ffffff 100%);
+}
 header{
     padding: 2%;
     position: fixed;
